@@ -12,11 +12,14 @@ user_controller --> index action
 
 3. Write out the step-by-step process that your rails application will take to render the `tasks/new` route.
 
-    a. Looks into Tasks Controller
-    b. Looks into views
-    c. Renders NEW view from TASKS
+    a. User calls tasks/new
+    b. router checks controller
+    c. router finds view
+    d. view is rendered
 
 4. What file is responsible for managing the mapping between your application and the `tasks` database table?
+
+    Tasks model
 
     
 
